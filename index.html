@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="style.css"> 
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Intro component with sign up form</title>
+<title>Frontend Mentor | Intro component with sign up form</title>
 
 </head>
 <body>
   <main>
 
-  <section>
+  <section class="wrapper">
   <h1>Learn to code by watching others</h1>
 
   <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
@@ -20,17 +21,16 @@
 
   </section>
 
-  <section> 
+  <section class="wrapper"> 
   <button> it free 7 days then $20/mo. thereafter </button>
 <form>
-  First Name 
-  Last Name 
-  Email Address
-  Password
-
+  <input type="text" placeholder="First Name"> 
+  <input type="text" placeholder="Last Name">
+  <input type="email" placeholder="Email Address">
+  <input type="password" placeholder="Password">
   <button> your free trial </button> 
 
-  By clicking the button, you are agreeing to our Terms and Services
+  <p>By clicking the button, you are agreeing to our Terms and Services</p>
 </form>
   </section>
 
