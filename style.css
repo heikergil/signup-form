@@ -39,7 +39,6 @@ button {
   -webkit-box-shadow: 0px 9px 2px -3px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 9px 2px -3px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 9px 2px -3px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
 }
 
 form {
@@ -70,6 +69,7 @@ form button {
   border-color: #57d49e;
   color: white;
   box-shadow: none;
+  cursor: pointer;
 }
 
 input {
@@ -81,10 +81,6 @@ input {
   border-radius: 8px;
   box-shadow: 0%;
   font-weight: 700;
-}
-
-.invalid {
-  border: solid 1px #ff7a7a;
 }
 
 #terms_services {
@@ -99,6 +95,19 @@ input {
 
 .bold {
   font-weight: 800;
+}
+
+.warning {
+  color: #ff7a7a;
+  float: right;
+  font-size: 13px;
+  margin: -10px 21px 20px 20px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
