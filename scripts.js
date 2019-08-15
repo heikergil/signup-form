@@ -36,11 +36,6 @@ if (password.value = " " || "" || null){
     password.value = "";
     password.placeholder = "";    
 }
-if (password.value.lenght < 6) {
-    passwordWarning.classList.remove("hidden");
-    password.classList.add('red_border');
-    password.value = "";
-    password.placeholder = "";    
-}
+
     
 };

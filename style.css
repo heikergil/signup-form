@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i&display=swap");
 html {
+  margin: auto;
+  width: 375px;
   height: 100%;
   font-family: "Poppins", sans-serif;
   background-image: url("/images/bg-intro-mobile.png");
@@ -8,7 +10,7 @@ html {
 
 .wrapper {
   text-align: justify;
-  width: 375px;
+  width: 95%;
   margin: 0% auto 25px auto;
   color: white;
 }
@@ -112,6 +114,36 @@ input {
 
 .hidden {
   display: none;
+}
+
+footer {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    background-image: url("/images/bg-intro-desktop.png");
+    background-color: blue;
+  }
+
+  .wrapper {
+    display: inline-block;
+    text-align: justify;
+    width: 50%;
+    color: white;
+    margin: 50px auto;
+  }
+
+  #title {
+    float: left;
+  }
+
+  #signup {
+    float: left;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
