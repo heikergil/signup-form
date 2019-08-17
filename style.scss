@@ -40,6 +40,7 @@ p {
     background-color: #5D54A3;
     border-color: #5D54A3;
     color: white;
+    cursor: pointer;
     -webkit-box-shadow: 0px 9px 2px -3px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 9px 2px -3px rgba(0,0,0,0.2);
     box-shadow: 0px 9px 2px -3px rgba(0,0,0,0.2);
@@ -131,27 +132,38 @@ color: gray;
       }
       main {
         display:grid;
+        grid-column-gap: 0;
         grid-template-columns: 50% 50%;
       }
       h1 {
-        font-size: 28px;
-        text-align: center;
+        font-size: 38px;
+        text-align: left;
         word-spacing: 5px;
         width: 350px;
-        margin: 170px auto 25px auto;
+        margin: 170px 0 25px 45px;
         }
 
         p {
-          width: 500px;
+          max-width: 500px;
           text-align: left;
         }
 
       .wrapper {
-        border: solid black 1px;
-        min-width:600px;
+        max-width: 600px;
         color: white;
-        margin: 50px auto;
+        margin: 100px auto;
         }
+
+
+        #title {
+          margin-right: -20px;
+          
+        }
+
+        #signup {
+          margin-left: -20px;
+        }
+       
         form {
           width: 80%;
           margin: 20px auto;
